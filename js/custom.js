@@ -41,7 +41,7 @@ var lc = lc || {
         }, time);
     },                   
     getCards: function() {
-        $.getJSON("https://jasperhuting.nl/set_/cards.json", function(data) {            
+        $.getJSON("https://jasperhuting.nl/set/cards.json", function(data) {            
             lc.cardSet = $.map(data, function(el) { return el; })
             $.ajax({
                 url:lc.shuffle(lc.cardSet),
