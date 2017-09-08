@@ -1,0 +1,489 @@
+{
+
+    "0": {
+        "amount": 1,
+        "shape": "square",
+        "color": "red",
+        "filling": "open"
+    },
+    "1": {
+        "amount": 1,
+        "shape": "square",
+        "color": "red",
+        "filling": "closed"
+    },
+    "2": {
+        "amount": 1,
+        "shape": "square",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "3": {
+        "amount": 2,
+        "shape": "square",
+        "color": "red",
+        "filling": "open"
+    },
+    "4": {
+        "amount": 2,
+        "shape": "square",
+        "color": "red",
+        "filling": "closed"
+    },
+    "5": {
+        "amount": 2,
+        "shape": "square",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "6": {
+        "amount": 3,
+        "shape": "square",
+        "color": "red",
+        "filling": "open"
+    },
+    "7": {
+        "amount": 3,
+        "shape": "square",
+        "color": "red",
+        "filling": "closed"
+    },
+    "8": {
+        "amount": 3,
+        "shape": "square",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "9": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "open"
+    },
+    "10": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "closed"
+    },
+    "11": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "12": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "open"
+    },
+    "13": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "closed"
+    },
+    "14": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "15": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "open"
+    },
+    "16": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "closed"
+    },
+    "17": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "18": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "red",
+        "filling": "open"
+    },
+    "19": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "red",
+        "filling": "closed"
+    },
+    "20": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "21": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "red",
+        "filling": "open"
+    },
+    "22": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "red",
+        "filling": "closed"
+    },
+    "23": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "24": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "red",
+        "filling": "open"
+    },
+    "25": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "red",
+        "filling": "closed"
+    },
+    "26": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "red",
+        "filling": "hatched"
+    },
+    "27": {
+        "amount": 1,
+        "shape": "square",
+        "color": "orange",
+        "filling": "open"
+    },
+    "28": {
+        "amount": 1,
+        "shape": "square",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "29": {
+        "amount": 1,
+        "shape": "square",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "30": {
+        "amount": 2,
+        "shape": "square",
+        "color": "orange",
+        "filling": "open"
+    },
+    "31": {
+        "amount": 2,
+        "shape": "square",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "32": {
+        "amount": 2,
+        "shape": "square",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "33": {
+        "amount": 3,
+        "shape": "square",
+        "color": "orange",
+        "filling": "open"
+    },
+    "34": {
+        "amount": 3,
+        "shape": "square",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "35": {
+        "amount": 3,
+        "shape": "square",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "36": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "open"
+    },
+    "37": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "38": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "39": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "open"
+    },
+    "40": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "41": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "42": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "open"
+    },
+    "43": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "44": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "45": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "open"
+    },
+    "46": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "47": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "48": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "open"
+    },
+    "49": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "50": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "51": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "open"
+    },
+    "52": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "closed"
+    },
+    "53": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "orange",
+        "filling": "hatched"
+    },
+    "54": {
+        "amount": 1,
+        "shape": "square",
+        "color": "green",
+        "filling": "open"
+    },
+    "55": {
+        "amount": 1,
+        "shape": "square",
+        "color": "green",
+        "filling": "closed"
+    },
+    "56": {
+        "amount": 1,
+        "shape": "square",
+        "color": "green",
+        "filling": "hatched"
+    },
+    "57": {
+        "amount": 2,
+        "shape": "square",
+        "color": "green",
+        "filling": "open"
+    },
+    "58": {
+        "amount": 2,
+        "shape": "square",
+        "color": "green",
+        "filling": "closed"
+    },
+    "59": {
+        "amount": 2,
+        "shape": "square",
+        "color": "green",
+        "filling": "hatched"
+    },
+    "60": {
+        "amount": 3,
+        "shape": "square",
+        "color": "green",
+        "filling": "open"
+    },
+    "61": {
+        "amount": 3,
+        "shape": "square",
+        "color": "green",
+        "filling": "closed"
+    },
+    "62": {
+        "amount": 3,
+        "shape": "square",
+        "color": "green",
+        "filling": "hatched"
+    },
+    "63": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "open"
+    },
+    "64": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "closed"
+    },
+    "65": {
+        "amount": 1,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "hatched"
+    },
+    "66": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "open"
+    },
+    "67": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "closed"
+    },
+    "68": {
+        "amount": 2,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "hatched"
+    },
+    "69": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "open"
+    },
+    "70": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "closed"
+    },
+    "71": {
+        "amount": 3,
+        "shape": "ellipse",
+        "color": "green",
+        "filling": "hatched"
+    },
+    "72": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "green",
+        "filling": "open"
+    },
+    "73": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "green",
+        "filling": "closed"
+    },
+    "74": {
+        "amount": 1,
+        "shape": "wave",
+        "color": "green",
+        "filling": "hatched"
+    },
+    "75": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "green",
+        "filling": "open"
+    },
+    "76": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "green",
+        "filling": "closed"
+    },
+    "77": {
+        "amount": 2,
+        "shape": "wave",
+        "color": "green",
+        "filling": "hatched"
+    },
+    "78": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "green",
+        "filling": "open"
+    },
+    "79": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "green",
+        "filling": "closed"
+    },
+    "80": {
+        "amount": 3,
+        "shape": "wave",
+        "color": "green",
+        "filling": "hatched"
+    }
+}
