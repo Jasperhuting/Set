@@ -4,6 +4,7 @@
     amount: 3,2,1
     filling: open, closed, hatched
     81 kaarten
+    GIT https://github.com/Jasperhuting/Set.git
 */
 
 
