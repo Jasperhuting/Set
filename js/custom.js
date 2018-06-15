@@ -7,7 +7,6 @@
     GIT https://github.com/Jasperhuting/Set.git
 */
 
-
 var lc = lc || {
     selected: [],
     set: 0,
@@ -54,13 +53,13 @@ var lc = lc || {
         });
     },
     setPlayers: function(players) {
-            var count = players.length;
-            var divContainer = document.createElement('div');
+            const count = players.length;
+            const divContainer = document.createElement('div');
             divContainer.className = 'row';
-            for (var i = 0; i < players.length; i++) {
-                var player = document.createElement('div');
+            for (const i = 0; i < players.length; i++) {
+                const player = document.createElement('div');
                 if (count === 1) {
-                    var score = document.createElement('div');
+                    const score = document.createElement('div');
                     score.className = 'score';
                     player.className = 'player col-xs-12';
                 } else if (count === 2) {
@@ -89,8 +88,8 @@ var lc = lc || {
     getAllCombinations: function() {
 
         // Create an array that holds numbers from 1 ... 6.
-        var array = [];
-        for (var i = 0; i < $(".deck .card").length; i++) {
+        const array = [];
+        for (const i = 0; i < $(".deck .card").length; i++) {
             array[i] = i;
         }
         lc.possibilites = [];
@@ -147,16 +146,16 @@ var lc = lc || {
         }
     },
     checkIfPossibilities: function (data) {
-        elem = [];
+        const elem = [];
         for (var i = 0; i < lc.possibilites.length; i++) {
 
             elem[0] = data[lc.possibilites[i][0]];
             elem[1] = data[lc.possibilites[i][1]];
             elem[2] = data[lc.possibilites[i][2]];
 
-            element_0 = {'amount':elem[0].dataset.amount,'color':elem[0].dataset.color,'filling':elem[0].dataset.filling,'shape':elem[0].dataset.shape};
-            element_1 = {'amount':elem[1].dataset.amount,'color':elem[1].dataset.color,'filling':elem[1].dataset.filling,'shape':elem[1].dataset.shape};
-            element_2 = {'amount':elem[2].dataset.amount,'color':elem[2].dataset.color,'filling':elem[2].dataset.filling,'shape':elem[2].dataset.shape};
+            const element_0 = {'amount':elem[0].dataset.amount,'color':elem[0].dataset.color,'filling':elem[0].dataset.filling,'shape':elem[0].dataset.shape};
+            const element_1 = {'amount':elem[1].dataset.amount,'color':elem[1].dataset.color,'filling':elem[1].dataset.filling,'shape':elem[1].dataset.shape};
+            const element_2 = {'amount':elem[2].dataset.amount,'color':elem[2].dataset.color,'filling':elem[2].dataset.filling,'shape':elem[2].dataset.shape};
 
             var checkThis = [element_0,element_1,element_2];
 
@@ -286,7 +285,6 @@ $(document).ready(function() {
                     } else {
                         lc.setConsoleVisible('<span>Er zit nog een set in!</span>', 'warning', 2000);
                         console.log('er zit nog een set in!');
-
                     }
                 }
             });
@@ -315,7 +313,7 @@ $(document).ready(function() {
         $('[data-players]').parent().removeClass('selected');
         $(this).addClass('selected');
         $('.names').parent().remove();
-        count = $(this).children().data('players');
+        const count = $(this).children().data('players');
         for (var i = 0; i < $(this).children().data('players'); i++) {
             var div = document.createElement('div');
 
