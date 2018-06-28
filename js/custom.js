@@ -56,7 +56,7 @@ var lc = lc || {
             const count = players.length;
             const divContainer = document.createElement('div');
             divContainer.className = 'row';
-            for (const i = 0; i < players.length; i++) {
+            for (let i = 0; i < players.length; i++) {
                 const player = document.createElement('div');
                 if (count === 1) {
                     const score = document.createElement('div');
@@ -89,7 +89,7 @@ var lc = lc || {
 
         // Create an array that holds numbers from 1 ... 6.
         const array = [];
-        for (const i = 0; i < $(".deck .card").length; i++) {
+        for (let i = 0; i < $(".deck .card").length; i++) {
             array[i] = i;
         }
         lc.possibilites = [];
@@ -127,7 +127,7 @@ var lc = lc || {
                 console.log('The deck is running out of cards');
                 lc.setConsoleVisible('<span>The deck is running out of cards</span>', 'warning', 2000);
             } else {
-                for(var i = 0; i < data.length; i++) {
+                for(let i = 0; i < data.length; i++) {
                     $.ajax({
                         url:lc.createCard(data[i]),
                         success:function(){
