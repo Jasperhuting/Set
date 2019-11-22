@@ -249,9 +249,6 @@ var lc = lc || {
 	},
 };
 
-
-
-
 $(document).ready(function() {
 	// lc.getCards();
 
@@ -264,7 +261,7 @@ $(document).ready(function() {
 		} else {
 			// alert('helaas :(');
 			lc.setScore(false);
-			lc.setConsoleVisible('<span>Helaas :(</span>', 'warning', 2000);
+			lc.setConsoleVisible('<span>unfortunately :(</span>', 'warning', 2000);
 		}
 		setTimeout(function() {
 			lc.resetSelected();
@@ -280,16 +277,16 @@ $(document).ready(function() {
 				url:lc.checkIfPossibilities($('.deck .card')),
 				success:function(){
 					if (lc.help == 0) {
-						lc.setConsoleVisible('<span>Geen set gevonden</span>', 'warning', 2000);
-						console.log('geen set gevonden');
+						lc.setConsoleVisible('<span>No set found</span>', 'warning', 2000);
+						console.log('no set found');
 					} else {
-						lc.setConsoleVisible('<span>Er zit nog een set in!</span>', 'warning', 2000);
-						console.log('er zit nog een set in!');
+						lc.setConsoleVisible('<span>There is still a set in it!</span>', 'warning', 2000);
+						console.log('There is still a set in it!');
 					}
 				}
 			});
 		} else {
-			lc.setConsoleVisible('<span>Start eerst het spel</span>', 'error', 2000);
+			lc.setConsoleVisible('<span>Start the first game</span>', 'error', 2000);
 			console.log('Start eerst het spel');
 		}
 
