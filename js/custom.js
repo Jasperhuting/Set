@@ -303,7 +303,7 @@ $(document).ready(function() {
 		$('.popup').hide();
 	});
 	$(document).on('keypress', '.names input', function() {
-		$('.startGame .startGame').text('Start het spel!');
+		$('.startGame .startGame').text('Start the game!');
 	});
 	$('.options').on('click', '.card.option', function() {
 		lc.amountPlayers = $(this).children().data('players');
@@ -316,15 +316,15 @@ $(document).ready(function() {
 
 			if (count === 1) {
 				div.className = 'card col-xs-12';
-				$('.startGame .startGame').text('Vul je naam in');
+				$('.startGame .startGame').text('Fill in your name');
 			} else if (count === 2) {
-				$('.startGame .startGame').text('Vul de namen in');
+				$('.startGame .startGame').text('Fill in the names');
 				div.className = 'card col-xs-12 col-sm-6';
 			} else if (count === 3) {
-				$('.startGame .startGame').text('Vul de namen in');
+				$('.startGame .startGame').text('Fill in the names');
 				div.className = 'card col-xs-12 col-sm-4';
 			} else if (count === 4) {
-				$('.startGame .startGame').text('Vul de namen in');
+				$('.startGame .startGame').text('Fill in the names');
 				div.className = 'card col-xs-12 col-sm-6 col-md-3 ';
 			}
 

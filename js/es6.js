@@ -310,7 +310,7 @@
 // 		$(".popup").hide();
 // 	});
 // 	$(document).on('keypress', '.names input', function() {
-// 		$(".startGame .startGame").text('Start het spel!');
+// 		$(".startGame .startGame").text('Start the game!');
 // 	});
 // 	$('.options').on('click', '.card.option', function() {
 // 		lc.amountPlayers = $(this).children().data('players');
